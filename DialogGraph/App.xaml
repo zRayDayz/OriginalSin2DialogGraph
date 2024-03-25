@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="DialogGraph.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/DialogGraph;component/Presentation/View/ZoomControl/ZoomControl.Resources.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/DialogGraph;component/Presentation/View/Resources/LayoutParameterTemplates.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/DialogGraph;component/Presentation/View/Resources/PocGraphDataTemplates.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

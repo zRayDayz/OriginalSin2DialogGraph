@@ -1,0 +1,8 @@
+﻿.git
+.idea
+.vs
+*.sln.DotSettings.user
+*.csproj.DotSettings.user
+*/bin
+*/obj
+bin_solution
